@@ -1,0 +1,69 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+.row > div { border: 5px solid; border-color: Green; text-align: center; text-shadow: 50px; font-family: fantasy; font-size: 25px; font-weight: bold;vertical-align: middle;}
+
+@media  (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+#p1 {font-family: sans-serif; font-size:25px; line-height: 25px; padding: 25px; margin-left:40px}
+
+#p2 {text-align: right;font-family: cursive; font-size:20px; line-height: 25px; padding: 25px;}
+
+h1 {background-color: #ffe6f2}
+
+body {background-color:#ccddff}
+
+
+
+.l1 {background-color:#ccddff; font-size: 25px; font-weight: bold; Color: brown; font-family: fantasy; text-align: center;}
+
+iframe {overflow: hidden; background-color: #ccddff; border: 0}
+
+li {font-family: sans-serif; font-size:25px; line-height: 25px; padding: 20px; cursor: none}
+
+#p1 , #p2, li {background-color:#75a0f0;color: white;}
+
+hr {height: 20px; background-color: red}
+
+#hrh {color:red; height:5px}
+
+.tp {background-color:red}
+
+a::after {content:"____________________" ;color:red; font-weight: bolder;font-size: 50px}
+
+a:link {
+  color: Blue;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: Green;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;}
+
+  td {color:white;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  font-size: 30px;
+  font-family: fantasy;
+  font-weight: bolder;
+  word-spacing: 30px;
+  }
